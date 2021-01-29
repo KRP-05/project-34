@@ -17,7 +17,7 @@ class fly{
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
             push();
-strokeWeight(4)
+strokeWeight(0)
 stroke("brown")
 line(pointA.x,pointA.y,pointB.x,pointB.y)
            
